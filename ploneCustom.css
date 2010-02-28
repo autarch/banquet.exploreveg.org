@@ -1,0 +1,230 @@
+
+/* ----- ploneCustom.css ----- */
+@media all {
+/*
+ *  This is the file where you put your CSS changes. 
+ *  You should preferrably use this and override the 
+ *  relevant properties you want to change here instead 
+ *  of customizing plone.css to survive upgrades. Writing
+ *  your own plone.css only makes sense for very heavy 
+ *  customizations. Useful variables from Plone are 
+ *  documented at the bottom of this file.
+ *
+ *  -- Alexander Limi, http://www.plonesolutions.com
+ */
+ 
+/* <!-- compression status: disabled --> (this is for http compression) */
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+
+/* .documentByLine { display:none; } */
+
+#content h2 {clear: both}
+
+img.insetL {
+        margin : 0.5em 8px 0.5em 0;
+        border : 1px solid #000;
+        float : left;
+        clear : left;
+}
+
+img.insetL_noborder {
+	margin 0.5em 8px 0.5em 0;
+	float : left;
+        clear : left;
+}
+
+img.inset {
+        margin : 0.5em 0 0.5em 8px;
+        border : 1px solid #000;
+        float : right;
+        clear : right;
+}
+
+img.inset_noborder {
+	margin : 0.5em 0 0.5em 8px;
+	float : right;
+        clear : right;
+}
+
+
+.small  {
+  font-size : 80%;
+}
+
+.underline {
+  text-decoration : underline;
+}
+
+.green {
+  color : green;
+}
+
+.red {
+  color : red;
+}
+
+.center {
+  text-align : center;
+}
+
+/* Updated above */
+
+img.noborder {
+  border : 0 none ;
+}
+
+
+pre {
+  font-size : 92%;
+  color : blue;
+}
+
+.greek {
+  color : #999;
+}
+
+a.anchor {
+  font-size : 83%;
+  font-weight : normal;
+}
+
+p.anchor {
+  text-align : right;
+}
+
+label span.align {
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 8em;
+  margin-right: 0.5em;
+  /*  margin-bottom: 0.5em; */
+}
+
+div.figure {
+  float: right;
+  clear: right;
+  width: 35%;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+
+.fbox{
+	clear: both;
+	font-size: 90%;
+	background-color: #f2f2f2;
+        border: thin black solid;
+        padding: .5em;
+}
+
+
+div.figureL {
+	float: left;
+	clear: left;
+	width: 35%;
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+div.figure p {
+  text-align: center;
+  font-style: italic;
+  font-size: 92%;
+  text-indent: 0;
+}
+
+div.figureL p {
+	text-align: center;
+	font-style: italic;
+        font-size: 92%;
+	text-indent: 0;
+}
+
+
+img.scaled {
+  width: 100%;
+}
+
+/*  */
+
+/* DOCUMENTATION ON PRE-DEFINED PROPERTIES FROM PLONE */
+
+ /* You can insert colors and other variables from Plone's 
+    base_properties by doing:
+    
+    & dtml-variableName ; (without the spaces, excluded here to not make it render)
+    
+    Example:
+    
+    myLink {
+        color: & dtml-fontColor ;   (again, without the spaces)
+    }
+ 
+   This means you can generate your own elements that use Plone's defaults,
+   and respect any customizations people have done. See base_properties for
+   the default values.
+ 
+   These are the available properties:
+   
+   logoName - the file name of the portal logo. 
+   
+   fontFamily - the font family used for all text that is not headers
+   
+   fontBaseSize - the base font size that everything is calculated from
+   
+   fontColor - the main font color
+   
+   backgroundColor - the background color 
+   
+   linkColor - the color used on normal links
+
+   linkActiveColor - color used on active links
+
+   linkVisitedColor - color used on visited links
+   
+   borderWidth - the width of most borders in Plone
+   
+   borderStyle - the style of the border lines, normally solid
+   
+   borderStyleAnnotations - style of border lines on comments etc
+   
+   globalBorderColor - the border color used on the main tabs, the portlets etc
+   
+   globalBackgroundColor - background color for the selected tabs, portlet headings etc
+   
+   globalFontColor - the color of the font in the tabs and in portlet headings
+   
+   headingFontFamily - font family for h1/h2/h3/h4/h5/h6 headlines.
+   
+   headingFontBaseSize - the base size used when calculating the different headline sizes
+   
+   contentViewBorderColor - the content view tabs border color
+   
+   contentViewBackgroundColor - the content view tabs background color
+   
+   contentViewFontColor - the font color used in the content view tabs
+   
+   textTransform - whether to lowercase text in portlets, tabs etc.
+   
+   evenRowBackgroundColor - the background color of even rows in listings
+   
+   oddRowBackgroundColor - the background color of even rows in listings
+   
+   notifyBorderColor - border color of notification elements like the status message, the calendar focus
+   
+   notifyBackgroundColor - background color of notification elements like the status message, the calendar focus
+   
+   discreetColor:string=#999999
+   helpBackgroundColor:string=#ffffe1
+ 
+ */
+
+
+
+}
+
