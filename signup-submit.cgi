@@ -47,7 +47,7 @@ while ( $cgi->param("name-$x") ) {
 my $email = Email::Simple->create(
     header => [
         From    => 'dave@exploreveg.org',
-        To      => [ 'dave@exploreveg.org', 'unny@exploreveg.org' ],
+        To      => 'dave@exploreveg.org, unny@exploreveg.org',
         Subject => 'Banquet sign-up',
     ],
     body => $body,
