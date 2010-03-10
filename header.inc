@@ -253,8 +253,3 @@
           </td>
 
           <td id="portal-column-content">
-            <div id="content" class="">
-              <div class="documentContent" id="region-content">
-                <a name="documentContent" id="documentContent"></a>
-
-                <div class="discussion">
