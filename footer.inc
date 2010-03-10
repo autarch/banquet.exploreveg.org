@@ -5,6 +5,7 @@
 
           <td id="portal-column-two">
             &nbsp;
+          </td>
         </tr>
       </tbody>
     </table>
