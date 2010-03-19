@@ -63,6 +63,13 @@
       padding-top: 0 !important;
     }
 
+    div.inset {
+      border: 1px solid #000000;
+      clear: right;
+      float: right;
+      margin: 0.5em 0 0.5em 8px;
+    }
+
     #region-content{
       margin-top: 0 !important;
       padding-top: 0 !important;
