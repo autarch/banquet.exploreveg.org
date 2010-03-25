@@ -69,6 +69,10 @@
       margin: 0.5em 0 0.5em 8px;
     }
 
+    div.inset p.caption {
+      font-size: 80%;
+    }
+
     #region-content{
       margin-top: 0 !important;
       padding-top: 0 !important;
